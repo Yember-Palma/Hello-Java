@@ -3,34 +3,43 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
-.hello-java.iml/
 .idea/
+
+# Archivos de clases y compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos temporales y de sistema
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de entorno
+.env
+
+# Archivos de configuración de IDE
 *.iml
+*.ipr
 *.iws
-.gitignore
+/.vscode/
+
+# Carpetas de compilación
+build/
+target/
+
+# Dependencias de Node (si existieran)
+node_modules/
+
+# Salida de pruebas
+test-output/
+
+# Archivos de respaldo
+*.bak
+*.old
+
 
